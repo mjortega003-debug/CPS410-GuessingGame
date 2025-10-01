@@ -21,7 +21,7 @@ public class Main {
             } else if (guess > numberToGuess) {
                 System.out.println("Too high! Try again.");
             } else {
-            	System.out.print("Correct! The number was " to numberToGuess + ".");
+            	System.out.print("Correct! The number was " + numberToGuess + ".");
                 System.out.println("You guessed it in " + attempts + " tries!");
             }
         }
